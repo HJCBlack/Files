@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test</title>
+    </head>
+    <body>
+        <form method="post" action="test.php">
+            <label>Nombre</label><br>
+            <input type="text" name="nombre"><br>
+            <label>Apellido</label><br>
+            <input type="text" name="apell"><br>
+            <label>Fecha de Nacimiento</label><br>
+            <input type="date" name="fecha"><br>
+            <label>Domicilio</label><br>
+            <input type="text" name="calle" value="calle">&nbsp;&nbsp;&nbsp;<input type="number" name="altura" style="width: 12%;"><br><br>
+            <label>Sexo</label>
+            <select name="sexo">
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select><br><br>
+            <input type="checkbox" name="materia[]" value="Matemáticas">Matemáticas  &nbsp;&nbsp;<input type="number" name="not1" style="width: 8%"><br>
+            <input type="checkbox" name="materia[]" value="Taller II">Taller II   &nbsp;&nbsp;<input type="number" name="not2" style="width: 8%;"><br>
+            <input type="checkbox" name="materia[]" value="Analisís y Diseño I">Analisís y Diseño I   &nbsp;&nbsp;<input type="number" name="not3" style="width: 8%;"><br>
+            <input type="checkbox" name="materia[]" value="Base de Datos">Base de Datos   &nbsp;&nbsp;<input type="number" name="not4" style="width: 8%;"><br>
+            <input type="checkbox" name="materia[]" value="Programación I">Programación I   &nbsp;&nbsp;<input type="number" name="not5" style="width: 8%;"><br>
+            <input type="submit" name="enviar"> <input type="reset">
+        </form>
+    </body>
+</html>
